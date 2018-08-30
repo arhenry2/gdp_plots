@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 # the columns and their gdp data becomes the rows
 
 # read data into a pandas dataframe and transpose
+filename = 'gapminder_gdp_oceania.csv'
 data = pandas.read_csv('gapminder_gdp_oceania.csv', index_col = 'country').T
 
 # create a plot the transposed data; only need to write "filename" for title b/c filename is a string
