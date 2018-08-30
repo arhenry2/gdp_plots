@@ -9,7 +9,7 @@ import sys
 
 # read data into a pandas dataframe and transpose
 filename = sys.argv[1]
-data = pandas.read_csv('gapminder_gdp_oceania.csv', index_col = 'country').T
+data = pandas.read_csv('gapminder_gdp_americas.csv', index_col = 'country').T
 
 # create a plot the transposed data; only need to write "filename" for title b/c filename is a string
 ax = data.plot(title=filename)
