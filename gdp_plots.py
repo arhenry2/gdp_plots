@@ -19,7 +19,7 @@ ax.set_ylabel('GDP per capita')
 
 # Set axes ticks
 ax.set_xticks(range(len(data.index)))
-ax.set_sticklabels(data.index, rotation=45)
+ax.set_xticklabels(data.index, rotation=45)
 
 # display the plot
 plt.show()
