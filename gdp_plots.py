@@ -15,7 +15,7 @@ ax = data.plot(title=filename)
 
 # axes labels
 ax.set_xlabel('Year')
-ax.set_ylabel('GDP per capita)
+ax.set_ylabel('GDP per capita')
 
 # Set axes ticks
 ax.set_xticks(range(len(data.index)))
