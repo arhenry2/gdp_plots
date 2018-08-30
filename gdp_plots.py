@@ -9,7 +9,7 @@ import glob
 # the columns and their gdp data becomes the rows
 
 # read data into a pandas dataframe and transpose
-
+#will read all files if sees "-a"; or will assume we've written the files we want plotted
 if sys.argv[1] == '-a':
 	file_list = glob.glob("*gdp*.csv")
 else:
